@@ -69,11 +69,11 @@ header{position:sticky;top:0;z-index:20;background:rgba(10,10,10,.85);-webkit-ba
 .band{background:#0E0D0B;border-top:1px solid rgba(212,175,90,.15)}
 .sobre{display:flex;flex-direction:column;gap:64px;padding-top:96px;padding-bottom:96px}
 .sobre-top{display:flex;flex-wrap:wrap;gap:64px;align-items:center}
-.photo{flex:1 1 340px;max-width:440px;margin:0 auto;position:relative;padding:0 22px 22px 0}
-.photo:before{content:"";position:absolute;left:22px;top:22px;right:0;bottom:0;border:1px solid #B8892F}
+.photo{flex:0 1 320px;max-width:320px;margin:0 auto;position:relative;padding:0 18px 18px 0}
+.photo:before{content:"";position:absolute;left:18px;top:18px;right:0;bottom:0;border:1px solid #B8892F}
 .photo img{position:relative;display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 18%}
-.badge{position:absolute;left:-14px;bottom:44px;padding:14px 20px;background:#0A0A0A;border:1px solid #D4AF5A;display:flex;flex-direction:column;gap:4px}
-.badge b{font-family:Cinzel,serif;font-size:18px;font-weight:600}
+.badge{position:absolute;left:-14px;bottom:36px;padding:12px 18px;background:#0A0A0A;border:1px solid #D4AF5A;display:flex;flex-direction:column;gap:4px}
+.badge b{font-family:Cinzel,serif;font-size:16px;font-weight:600}
 .badge span{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#E9E4DA}
 .sobre-txt{flex:1 1 440px;display:flex;flex-direction:column;gap:20px}
 .quote{margin:0;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:24px;line-height:1.5;color:#EED28A}
@@ -130,6 +130,9 @@ footer{border-top:1px solid rgba(212,175,90,.25);background:#070707}
 .mono-lg{position:relative;width:84px;height:84px;border:1px solid #B8892F;font-family:Cinzel,serif}
 .mono-lg .b{position:absolute;left:16px;top:2px;font-size:58px;font-weight:600;line-height:1}
 .mono-lg .r{position:absolute;left:28px;top:20px;font-size:46px;font-weight:500;color:#F2EEE6;line-height:1}
+.legal{width:100%;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;padding-top:22px;border-top:1px solid rgba(212,175,90,.15);font-size:12px;color:#8F897F}
+.legal a{color:#D4AF5A;text-decoration:none;font-weight:500}.legal a:hover{color:#EED28A}
+@media (max-width:640px){.legal{justify-content:center;text-align:center}}
 .wa{position:fixed;right:22px;bottom:22px;z-index:30;width:60px;height:60px;border-radius:50%;background:linear-gradient(135deg,#B8892F,#EED28A);display:flex;align-items:center;justify-content:center;animation:pulse 2s ease-out infinite}
 @media (max-width:640px){
   .nav{gap:16px;font-size:13px}.nav .opt{display:none}
@@ -137,6 +140,7 @@ footer{border-top:1px solid rgba(212,175,90,.25);background:#070707}
   .rot{font-size:23px}
   .panel-box,.formbox{padding:26px 20px}
   .badge{left:0}
+  .photo{max-width:270px}
   .stat{border-right:1px solid rgba(212,175,90,.25)}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
@@ -329,7 +333,7 @@ footer{border-top:1px solid rgba(212,175,90,.25);background:#070707}
 </div>
 <nav class="nav" style="justify-content:center"><a href="#sobre">Sobre</a><a href="#atuacao">Áreas de atuação</a><a href="#trajetoria">Trajetória</a><a href="#contato">Contato</a></nav>
 <p style="margin:0;font-size:13px;line-height:1.7;color:#A9A39A">Rua Bertoldo Simão, 195 – Centro, Ilhota – SC, 88320-462<br>(47) 99912-3962 · rebello.adv@outlook.com</p>
-<p style="margin:0;font-size:12px;color:#8F897F">© 2026 Bruna Rebello Advocacia · OAB/SC [Nº DE INSCRIÇÃO]</p>
+<div class="legal"><span>© 2026 Bruna Rebello Advocacia · OAB/SC [Nº DE INSCRIÇÃO]</span><span>Desenvolvido por <a href="https://www.performaticosoficial.com.br" target="_blank" rel="noopener">Performáticos</a></span></div>
 </div>
 </footer>
 
