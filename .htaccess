@@ -5,6 +5,6 @@ Header set X-Robots-Tag "noindex, nofollow"
 # --- PÁGINA DESATIVADA ---
 # Para reativar, remova este bloco (até "FIM").
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !offline\.html$
-RewriteRule ^ offline.html [L]
+RewriteCond %{REQUEST_URI} !/rebelloadvocacia/(index\.html)?$
+RewriteRule ^ index.html [L]
 # --- FIM ---
