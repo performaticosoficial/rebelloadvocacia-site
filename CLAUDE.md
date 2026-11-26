@@ -7,3 +7,4 @@
 - Prévia: meta `noindex, nofollow`, cabeçalho X-Robots-Tag no .htaccess e robots.txt bloqueando. Na versão final no domínio da cliente, trocar para `index, follow` e refazer robots.txt.
 - Identidade: preto #0A0A0A e dourado (#B8892F → #EED28A), Cinzel nos títulos, Montserrat no texto.
 - WhatsApp da cliente: 5547999123962. Pendente: número da OAB/SC no rodapé.
+- Status: DESATIVADA desde 26/11/2026 a pedido do Euler (o .htaccess manda tudo para offline.html). Para reativar, remover o bloco "PÁGINA DESATIVADA" do .htaccess e publicar.
